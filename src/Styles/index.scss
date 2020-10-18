@@ -1,0 +1,17 @@
+$theme-color:(
+    "primary": #00746d,
+    "danger": #ff4136,
+    
+);
+
+@import '~bootstrap/scss/bootstrap';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top : 5rem;
+}
+

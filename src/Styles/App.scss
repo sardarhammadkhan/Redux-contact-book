@@ -1,0 +1,30 @@
+th ,td{
+    text-align: left;
+}
+
+.actions{
+  opacity:0;
+}
+
+table tr:hover{
+  .actions{
+    opacity: 1;
+  }
+}
+
+tbody td a{
+  color: black;
+  &:hover{
+    color: black;
+  }
+}
+
+@media(max-width:768px){
+    .table{
+        font-size: 12px;
+    }
+    .table td{
+    vertical-align: middle;
+    }
+}
+
